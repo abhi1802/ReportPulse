@@ -13,9 +13,10 @@ COPY . .
 
 RUN pip3 install -r requirements.txt
 
-#RUN mkdir /app/.streamlit/
+# RUN mkdir /app/.streamlit/
+# RUN mkdir /app/reportsData/
 
-#COPY .streamlit/secrets.toml /app/.streamlit/secrets.toml
+# COPY .streamlit/secrets.toml /app/.streamlit/secrets.toml
 
 EXPOSE 8501
 

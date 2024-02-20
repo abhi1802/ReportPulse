@@ -1,6 +1,6 @@
 streamlit
 # ml model dependencies
-openai
+openai==0.28
 streamlit-chat
 llama-index
 tiktoken
